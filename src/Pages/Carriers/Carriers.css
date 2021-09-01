@@ -1,0 +1,62 @@
+.Information_Section {
+    width: 850px;
+    height: 100%;
+    margin: 90px auto 40px;
+    padding: 30px 20px;
+    justify-items: center;
+    border: 5px solid #d5d9da;
+}
+
+.Information_Section h2 {
+    font-size: 22px;
+}
+
+.Information_Section p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.Information_Section h3 {
+    font-size: 17px;
+    text-align: justify;
+}
+
+.Information_Section h6,
+.Information_Section h4 {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+/* tab view */
+@media screen and (max-width: 860px) {
+    .Information_Section {
+        max-width: 650px;
+        padding: 20px 10px;
+    }
+
+}
+
+/* mobile view */
+@media screen and (max-width: 500px) {
+    .Information_Section {
+        max-width: 300px;
+        padding: 20px 10px;
+        
+        border: 2px solid #00ADB6;
+    }
+
+    .Information_Section p {
+        font-size: 12px!important;
+    }
+
+    .Information_Section h3 {
+        font-size: 13px!important;
+    }
+
+    .Information_Section h4,
+    .Information_Section h6 {
+        font-size: 10px!important;
+    }
+
+}

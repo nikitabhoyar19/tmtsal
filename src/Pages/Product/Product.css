@@ -1,0 +1,83 @@
+.home_banner_first button,
+.other_banner_second button {
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  background: rgb(42, 62, 73);
+  outline: none;
+  border: 1px solid rgb(55, 83, 94);
+  cursor: pointer;
+  color: white;
+  padding: 5px 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.home_banner_first button:hover,
+.other_banner_second button:hover {
+  background: rgb(236, 15, 15);
+  border: 1px solid rgb(236, 15, 15);
+}
+
+/* Product card */
+.Main_prod_card {
+  margin: 50px 200px;
+  padding: 20px;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 1.4401px 4.32029px rgba(0, 0, 0, 0.25);
+}
+
+.Main_prod_card img {
+  width: 100%;
+  max-width: 280px;
+  height: 200px;
+}
+
+.Main_prod_card .inner_main_prod {
+}
+
+.Main_prod_card h2 {
+  font-size: 25.9217px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.Main_prod_card p {
+  margin-left: 50px;
+  font-size: 17.2812px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.Main_prod_card small {
+  font-size: 15.8411px;
+  font-weight: 500;
+  color: #006b71;
+  margin-right: 0px !important;
+}
+
+.mobile_home_product {
+  display: none;
+}
+
+/* ** tab view ** */
+@media screen and (max-width: 780px) {
+  .Main_prod_card {
+    margin: 50px 20px !important;
+  }
+}
+
+/* **** mobile view **** */
+@media screen and (max-width: 500px) {
+  .mobile_home_product {
+    display: block;
+  }
+
+  .desktop_home_product {
+    display: none;
+  }
+}

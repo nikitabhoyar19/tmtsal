@@ -1,0 +1,130 @@
+.Distributor_form {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   text-align: center;
+}
+
+/* franchise section */
+.franchise_container {
+    background: #227C81;
+    align-items: center;
+    border: 1px solid green;
+}
+
+.franchise_container p, 
+.franchise_container small {
+   color: white;
+   font-weight: 500px;
+}
+
+.franchise_container p {
+    font-size: 20px;
+}
+
+.franchise_container small {
+    font-size: 15px;
+}
+
+/* ******************** form section ****************** */
+.Distributor_form form {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 850px;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(252, 252, 252);
+    border: 3px solid #227C81;
+}
+
+@media screen and (max-width: 800px) {
+    .Distributor_form {
+     padding: 10px;
+    }
+
+    .Distributor_form form {
+        margin: 10px 0px;
+    }
+
+    .inputfield input {
+        max-width: 300px;
+        padding: 8px 5px;
+    
+    }
+    
+    .Distributor_form input {
+        background: #FAFAFA;
+    }
+    
+    .inputfield_address input {
+        max-width: 300px;
+        padding: 8px 5px!important;
+    }
+    
+    .inputfield_experience input {
+        max-width: 290px;
+        padding: 8px 8px;
+    }
+    
+}
+
+.Distributor_form .inputfield, 
+.Distributor_form .inputfield_address {
+   margin: 5px 5px;
+}
+
+.inputfield input {
+    width: 800px;
+    padding: 8px 5px;
+
+}
+
+.Distributor_form input {
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0.1px solid #c2c0c0;
+}
+
+.inputfield_address input {
+    width: 800px;
+    padding: 8px 5px;
+
+}
+
+.inputfield_experience input {
+    width: 380px;
+    padding: 8px 10px;
+}
+
+.Distributor_form input::placeholder,
+textarea::placeholder {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22px;
+    background: #FFFFFF;
+    color: rgba(0, 0, 0, 0.41);
+}
+
+.Distributor_form button {
+    margin: 10px;
+    background: #00ADB6;
+    outline: none;
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #00ADB6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.Distributor_form button:hover {
+    transform: scale(1.1);
+}

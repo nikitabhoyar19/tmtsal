@@ -1,0 +1,115 @@
+/* Dealer container */
+.Deal_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 1.2561px 3.76829px rgba(0, 0, 0, 0.25);
+}
+
+/* Dealer icon image */
+.Deal_container img{
+  margin: 10px;
+  width: 100%;
+  max-width: 30px;
+}
+
+/* State and District div */
+.ChooseState,
+.ChooseDistrict {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    max-width: 550px;
+    max-height: 34px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #0E6A6F;
+    border-radius: 5.02439px;
+}
+
+.Deal_container h2 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.Deal_container select {
+    outline: none;
+    width: 220px;
+    margin: 10px;
+    padding: 5px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 3px solid #FFFFFF;
+}
+
+.Deal_container select::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.41);
+}
+
+.Deal_container div {
+    margin-top: 10px;
+}
+
+.Deal_container button {
+    margin: 5px;
+    margin-top: 0px;
+    outline: none;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+/* search btn */
+.Deal_container .search_btn {
+    margin-top: 10px;
+    background: #2B6063;
+    border: 1px solid #2B6063;
+}
+
+/* reset btn */
+.Deal_container .reset_btn {
+    background: #FF3D00;
+    border: 1px solid #FF3D00;
+}
+
+/* **** mobile view **** */
+@media screen and (max-width: 500px) {
+    .Deal_container {
+        margin: 20px 20px;
+        padding: 20px;
+    }
+    
+    .ChooseState,
+    .ChooseDistrict {
+        margin: 0px;
+        padding: 0px!important;
+        max-width: 309px;
+        max-height: 309px;
+    }   
+
+    .Deal_container div {
+        margin-top: 0px;
+    }    
+    
+    .Deal_container h2 {
+        display: none;
+    }    
+
+    .Deal_container button {
+        margin-top: 20px!important;
+    }
+}
+

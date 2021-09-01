@@ -1,0 +1,49 @@
+.Pro_Section {
+    margin: 20px auto;
+    justify-content: center;
+}
+.Pro_Section .client_grid_card {
+}
+
+.slick-next:before, .slick-prev:before {
+    color: rgb(184, 56, 10);
+}
+
+.slick-prev {
+    left: -10px;
+}
+
+.slick-next {
+    right: -10px;
+}
+
+@media screen and (max-width: 800px) {
+    .Pro_Section {
+        margin: 0px 0px;
+    }
+}
+
+.Client_card {
+    width: 100%;
+    max-width: 270px;
+    margin: auto;
+    padding: 10px;
+    background: linear-gradient(102.59deg,
+    #2CA992 0.05%, #F9FFF5 219.77%);
+    border-radius: 18px;
+}
+
+.Client_card p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: justify;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Client_card .bx {
+    padding: 5px 2px;
+    font-size: 25px;
+    color: #FFE661;
+}

@@ -1,0 +1,179 @@
+.Footer_Section {
+  background: #0f2627;
+}
+
+.Footer_Section div {
+  padding: 10px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Footer_Section a {
+  color: #ffffff;
+}
+
+.Footer_Section a,
+.Footer_Section p,
+.Footer_Section h2 {
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0px 10px;
+  color: #ffffff;
+}
+
+.footer_about a {
+  color: #ffffff!important;
+}
+
+.Footer_Section .seving_contact {
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cities_name {
+  text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+  .Footer_Section div{ 
+     padding: 2px 0px;
+  }
+
+  .Footer_Section .seving_contact {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .Footer_Section a,
+  .Footer_Section p,
+  .Footer_Section h2
+ {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .cities_name {
+    text-align: center;
+  }
+
+  .opening_hours, .contact_number_mail {
+    width: 50%;
+    border-top: 1px solid grey;
+  }
+
+  
+}
+
+@media screen and (max-width: 600px) {
+  .Footer_Section {
+    text-align: center;
+  }
+
+  .Footer_Section div{ 
+    padding: 5px 0px;
+ }
+
+
+  .Footer_Section .seving_contact {
+    flex-direction: column;
+  }
+
+  .footer_about {
+    display: flex;
+    width: 360px;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .Footer_Section a,
+  .Footer_Section p,
+  .Footer_Section h2 {
+    font-size: 13px;
+  }
+
+  .cities_name {
+    text-align: left;
+  }
+
+  .Footer_Section h2,
+  .Footer_Section p {
+    text-align: left;
+  }
+
+  .footer_about a {
+    padding: 5px 9px;
+  }
+
+  .opening_hours, .contact_number_mail {
+    width: 100%;
+    border-top: 1px solid grey;
+  }
+
+}
+
+.seving_contact p,
+.seving_contact a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.social_links a{
+  padding: 0px;
+  color: #e7e5e5;
+}
+
+.Footer_Section .bx {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.Footer_Section h3 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.Footer_Section .serving_address p {
+   text-align: center;
+   font-size: 13px;
+   color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  .Footer_Section .serving_address p {
+    font-size: 13px;
+  }
+
+}
+
+.opening_hours p,
+.opening_hours h2 {
+  text-align: center;
+}
+
+/* location */
+.serving_address button {
+  margin: 10px;
+  background: #00ADB6;
+  outline: none;
+  padding: 6px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #ffffff;
+  border: 1px solid #00ADB6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Footer_Section .social_links i{
+  border-radius: 50%;
+  box-shadow: inset 24px 24px 22px #071112,
+  inset -24px -24px 22px #173b3c;
+}

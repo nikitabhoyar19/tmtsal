@@ -1,0 +1,138 @@
+.get_in_touch_section {
+    padding: 35px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    right: 30px;
+    margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .get_in_touch_section {
+        padding: 35px 0px;
+        left: 0px;
+        right: 0px;
+    }
+}
+
+.get_in_touch_section h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.get_in_touch_section form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    background: #629b9e;
+    width: 550px;
+    padding: 5px;
+    margin: 0px auto;
+}
+
+/* .get_in_touch_section .Get_form {
+    background: #00ADB6;
+} */
+
+.get_in_touch_section input,
+.get_in_touch_section textarea {
+    width: 90%;
+    /* max-width: 550px; */
+    padding: 8px 10px;
+    margin: 5px;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 3px solid #FFFFFF;
+}
+
+@media screen and (max-width: 780px) {
+    .get_in_touch_section form {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .get_in_touch_section form {
+        max-width: 330px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .get_in_touch_section form {
+        max-width: 280px;
+    }
+
+    .get_in_touch_section {
+        padding: 2px;
+    }
+
+    textarea {
+        width: 80%!important;
+    }
+
+}
+
+textarea {
+    width: 90%;
+    height: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    textarea {
+        width: 90%!important;
+    }
+}
+
+
+.get_in_touch_section input:hover,
+textarea:hover,
+select:hover {
+    background-color: #FFFFFF;
+    /* linear-gradient(102.59deg, #2CA992 0.05%, #F9FFF5 219.77%); */
+}
+
+.get_in_touch_section input::placeholder,
+textarea::placeholder {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.41);
+}
+
+
+.get_in_touch_section button {
+    margin: 10px;
+    background: #00ADB6;
+    outline: none;
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #00ADB6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+/* form email */
+form p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    margin: auto;
+    padding-left: 12px;
+    color: #d4e211;
+}
+
+/* styling for not displaying number increments and decrements */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+    background-color: #FFFFFF;
+}

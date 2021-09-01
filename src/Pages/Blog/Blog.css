@@ -1,0 +1,106 @@
+.every_banner {
+    height: 400px;
+}
+
+.blog_Section {
+    justify-items: center;    
+}
+
+/*  */
+.Main_blog_card {
+    /* margin: 50px 200px; */
+    margin: auto;
+    width: 900px;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    box-shadow: 0px 1.4401px 4.32029px rgba(0, 0, 0, 0.25);
+}
+
+.Main_blog_card img{
+    width: 100%;
+    max-width: 380px;
+    height: 350px;
+ }
+ 
+ .Main_blog_card h2 {
+     font-size: 25px;
+     font-weight: 600;
+     line-height: 38px;
+     text-align: center;
+     margin-top: 2px;
+     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+ }
+ 
+ .Main_blog_card p {
+     margin-left: 50px;
+     font-size: 15px;
+     font-weight: 500;
+     line-height: 26px;
+     text-align: justify;
+     color: #000000;
+ }
+ 
+ .Main_blog_card button {
+     margin: 5px;
+     background: #00ADB6;
+     outline: none;
+     padding: 8px 20px;
+     font-size: 18px;
+     font-weight: 500;
+     cursor: pointer;
+     color: #ffffff;
+     border: 1px solid #00ADB6;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 10px;
+ }
+
+/* ***** tab view ***** */
+@media screen and (max-width: 926px) {
+    .Main_blog_card {
+       width: 600px;
+       padding: 10px;
+       margin-bottom: 10px;
+       flex-direction: column;
+    }
+
+    .Main_blog_card img{
+        max-height: 200px;
+        margin: auto;
+     }
+
+     .Main_blog_card p {
+        margin: 5px!important;
+        font-size: 15px!important;
+        font-weight: 500;
+    }
+
+    .Main_blog_card button {
+        margin-top: 5px!important;
+        padding: 4px 10px!important;
+        font-size: 15px!important;
+    }   
+
+}
+
+/* ***** mobile view ***** */
+@media screen and (max-width: 600px) {
+    .Main_blog_card {
+        max-width: 310px;
+        margin-bottom: 20px;
+    }
+
+    .Main_blog_card img{
+        max-height: 200px;
+     }
+
+     .Main_blog_card h2 {
+        font-size: 18px;
+    }
+    
+    .Main_blog_card p {
+        font-size: 15px!important;
+    }
+     
+}
+
